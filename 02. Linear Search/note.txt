@@ -1,0 +1,19 @@
+In given Array, find k exists in the array or not.
+
+arr = [18, 12, 9, 14, 77, 50] and k = 14
+        0   1  2   3   4   5
+    
+code:
+public int linearsearch(int arr, int k) {
+    for(int i=0; i<arr.length; i++) {
+        if(a[i]==k) {
+            return i;
+        }
+    }
+    return -1; 
+}
+
+Time Complexity:
+    Best: O(1) -> if we found the key value at the 0th index
+    Worst: O(n) -> if we don't have that key value in the array, the loop will run n times and returns -1. 
+    
