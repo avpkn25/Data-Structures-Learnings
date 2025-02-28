@@ -1,0 +1,27 @@
+sorting is done with the sorted array
+
+arr1 = [2, 4, 9, 10, 12, 14, 18, 19]
+-----------Ascending Order-------------
+
+arr2 = [19, 18, 14, 12, 10, 9, 4, 2]
+----------Descending Order-------------
+
+
+arr = [2,4, 6, 9, 11, 12, 14, 20, 36, 48]
+k = 36
+
+-> find the middle element of the array. 
+-> compare the k value is lies in left of middle element or right of middle element
+    if k > mid => search in the right
+    else search in left
+-> if mid == k // ans
+
+Time Complexity:- O(log n base 2)
+
+
+if we take 1,00,000 no.of elements in the array.
+
+in linear search: worst case - O(n) -> O(1,00,000)
+in binary search: worst case - O(logn) -> O(20)
+
+That is the reason we chose shift to binary search instead of linear search.
