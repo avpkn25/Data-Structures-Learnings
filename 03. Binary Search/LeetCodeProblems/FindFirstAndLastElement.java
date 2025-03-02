@@ -1,4 +1,3 @@
-package LeetCodeProblems;
 
 public class FindFirstAndLastElement {
     public static void main(String[] args) {
